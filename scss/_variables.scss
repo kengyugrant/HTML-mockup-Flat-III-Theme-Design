@@ -1,0 +1,33 @@
+//font 
+
+@import url(http://fonts.googleapis.com/css?family=Cantarell:400,700|Fjalla+One);
+
+$Cantarell: 'Cantarell', sans-serif;
+$FjallaOne: 'Fjalla One', sans-serif;
+
+//color
+
+$black: #14171C;
+$white: #FAEEEE;
+$dark-yellow: #E7CE27;
+$yellow: #F1D827;
+$pale: #E7D34D;
+
+//font size
+
+$s: 1em;
+$m: 1.618em;
+$l: 2.618em;
+$xl: 4.236em;
+
+//susy
+
+$total-columns: 10;
+$column-width: 10%;
+$gutter-width: 0%;
+$grid-padding: 0%;
+
+
+$mobile: 10 480px;
+$tablet: 10 959px;
+$computer: 960px 12;

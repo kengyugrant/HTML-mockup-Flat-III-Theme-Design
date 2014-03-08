@@ -1,0 +1,36 @@
+body {
+	font-size:16px;
+	font-family: $Cantarell;
+	color: $black;
+	#{headings(all)} {
+		font-family: $FjallaOne;
+	}
+	
+	h1 {
+		font-size: $xl;
+	}
+	h2 {
+		font-size: $l;
+	}
+	h3, h4 {
+		font-size: $m;
+	}
+	h5, h6 {
+		font-size: $s;
+	}
+	
+	a {
+		color: $dark-yellow;
+		text-decoration: none;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+
+	p {
+		font-size: 1em;
+		padding: 1em;
+		line-height: 1.5;
+	}
+}
+
